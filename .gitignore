@@ -1,0 +1,38 @@
+# ===== 敏感凭证（绝不入库）=====
+.env
+.env.*
+*.env
+!*.env.example
+backend/.env
+
+# ===== 运行时数据 =====
+*.db
+*.sqlite
+backend/data/
+*.log
+browser-run.log
+docker-*.log
+browser-test.json
+
+# ===== 构建产物 =====
+node_modules/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+
+# ===== 本地/临时 =====
+.DS_Store
+*.tmp
+*.swp
+.npmrc
+
+# ===== 图片/PPT 素材（答辩用，不入代码库）=====
+*.png
+*.jpg
+*.jpeg
+pptv2-png/
+ppt-*.png

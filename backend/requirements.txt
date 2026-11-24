@@ -1,0 +1,8 @@
+fastapi==0.133.1
+uvicorn[standard]==0.38.0
+httpx==0.28.1
+PyJWT==2.10.1
+apscheduler==3.11.0
+sgp4==2.25
+python-dateutil==2.9.0.post0
+redis==5.2.1
